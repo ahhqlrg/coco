@@ -54,7 +54,7 @@ class InteractiveServer:
                         continue
                     self.client.send(i.decode('utf-8').replace('\n', '\r\n'))
 
-        banner = _("""\n {title}   {user}, 欢迎使用Jumpserver开源跳板机系统  {end}\r\n\r
+        banner = _("""\n {title}   {user}, 欢迎使用Glance开源跳板机系统  {end}\r\n\r
     1) 输入 {green}ID{end} 直接登录 或 输入{green}部分 IP,主机名,备注{end} 进行搜索登录(如果唯一).\r
     2) 输入 {green}/{end} + {green}IP, 主机名{end} or {green}备注 {end}搜索. 如: /ip\r
     3) 输入 {green}p{end} 显示您有权限的主机.\r

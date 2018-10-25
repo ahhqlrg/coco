@@ -211,7 +211,7 @@ class Coco:
     def run_forever(self):
         self.bootstrap()
         print(time.ctime())
-        print('Coco version {}, more see https://www.jumpserver.org'.format(__version__))
+        print('Coco version {}, more see https://www.github.com/ahhqlrg/glance'.format(__version__))
         print('Quit the server with CONTROL-C.')
 
         try:

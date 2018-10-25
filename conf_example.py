@@ -11,10 +11,10 @@ class Config:
     """
     Coco config file, coco also load config from server update setting below
     """
-    # 项目名称, 会用来向Jumpserver注册, 识别而已, 不能重复
+    # 项目名称, 会用来向Glance注册, 识别而已, 不能重复
     # NAME = "localhost"
 
-    # Jumpserver项目的url, api请求注册会使用
+    # Glance项目的url, api请求注册会使用
     # CORE_HOST = os.environ.get("CORE_HOST") or 'http://127.0.0.1:8080'
 
     # 启动时绑定的ip, 默认 0.0.0.0
@@ -54,7 +54,7 @@ class Config:
     # 登录是否支持秘钥认证
     # PUBLIC_KEY_AUTH = True
 
-    # 和Jumpserver 保持心跳时间间隔
+    # 和Glance 保持心跳时间间隔
     # HEARTBEAT_INTERVAL = 5
 
     # Admin的名字，出问题会提示给用户

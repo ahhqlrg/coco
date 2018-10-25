@@ -47,7 +47,7 @@ def ssh_key_string_to_obj(text, password=None):
     return key
 
 
-def ssh_pubkey_gen(private_key=None, username='jumpserver', hostname='localhost'):
+def ssh_pubkey_gen(private_key=None, username='glance', hostname='localhost'):
     if isinstance(private_key, str):
         private_key = ssh_key_string_to_obj(private_key)
 
@@ -64,7 +64,7 @@ def ssh_pubkey_gen(private_key=None, username='jumpserver', hostname='localhost'
 
 
 def ssh_key_gen(length=2048, type='rsa', password=None,
-                username='jumpserver', hostname=None):
+                username='glance', hostname=None):
     """Generate user ssh private and public key
 
     Use paramiko RSAKey generate it.

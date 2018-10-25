@@ -1,16 +1,16 @@
-# Jumpserver terminal
+# Glance terminal
 
-Jumpserver terminal is a sub app of Jumpserver.
+Glance terminal is a sub app of Glance.
 
 It's implement a ssh server and a web terminal server, 
 
-User can connect them except jumpserver openssh server and connect.py 
+User can connect them except glance openssh server and connect.py 
 pre version.
 
 
 ## Install
 
-    $ git clone https://github.com/jumpserver/coco.git
+    $ git clone https://github.com/ahhqlrg/coco.git
 
 ## Setting
 
@@ -21,7 +21,7 @@ You need update config.py settings as you need, Be aware of:
 They are:
 
     NAME:
-    JUMPSERVER_URL:
+    GLANCE_URL:
     SECRET_KEY:
 
 Also some config you need kown:
@@ -33,9 +33,9 @@ Also some config you need kown:
 
     # python run_server.py
 
-When your start ssh server, It will register with jumpserver api,
+When your start ssh server, It will register with glance api,
 
-Then you need login jumpserver with admin user, active it in <Terminal>
+Then you need login glance with admin user, active it in <Terminal>
  
  If all done, your can use your ssh tools connect it.
  
