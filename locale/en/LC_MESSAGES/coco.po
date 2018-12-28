@@ -24,7 +24,7 @@ msgstr ""
 #, python-brace-format
 msgid ""
 "\n"
-"{T}{T}{title} {user}, Welcome to use Jumpserver open source fortress system "
+"{T}{T}{title} {user}, Welcome to use Glance open source fortress system "
 "{end}{R}{R}"
 msgstr ""
 

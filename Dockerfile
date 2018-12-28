@@ -1,5 +1,5 @@
 FROM registry.fit2cloud.com/public/python:v3
-MAINTAINER Jumpserver Team <ibuler@qq.com>
+MAINTAINER Glance Team <ibuler@qq.com>
 
 COPY requirements /opt/coco/requirements
 WORKDIR /opt/coco

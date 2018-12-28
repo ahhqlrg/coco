@@ -14,7 +14,7 @@ class Config:
     # 默认的名字
     NAME = os.environ.get("NAME") or None
 
-    # Jumpserver项目的url, api请求注册会使用
+    # Glance项目的url, api请求注册会使用
     CORE_HOST = os.environ.get("CORE_HOST") or 'http://core:8080'
 
     # 启动时绑定的ip, 默认 0.0.0.0
@@ -54,7 +54,7 @@ class Config:
     # 登录是否支持秘钥认证
     SSH_PUBLIC_KEY_AUTH = bool(os.environ.get("SSH_PUBLIC_KEY_AUTH")) if os.environ.get("SSH_PUBLIC_KEY_AUTH") else True
 
-    # 和Jumpserver 保持心跳时间间隔
+    # 和Glance 保持心跳时间间隔
     HEARTBEAT_INTERVAL = int(os.environ.get("HEARTBEAT_INTERVAL")) if os.environ.get("HEARTBEAT_INTERVAL") else 5
 
     # Admin的名字，出问题会提示给用户
